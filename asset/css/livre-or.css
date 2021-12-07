@@ -1,0 +1,358 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-image: url(../images/opfond.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+}
+/* HEADER */
+.logosize{
+    width: 100% ;
+    position: relative;
+    background-color: #1969CE;
+}
+/* Menu */
+.menuflex{
+    display: flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    width: 73.3%;
+    position:absolute;
+    margin-left: 26.5%;
+    top: 78%
+
+  }
+  .menucard{
+    background-color: #1969CE;
+    width: 25%;
+    text-align: center;
+    color:whitesmoke;
+    font-weight: bold;
+    padding: 2.2%;
+  
+  }
+  
+  .menucard a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: whitesmoke;
+  }
+  .menucard:hover a{
+    color: #2F3035;
+  }
+  .menucard:hover{
+    background-color: whitesmoke;
+   
+  }
+  .menucard input[type=submit]{
+    background-color: #1969CE;
+    border: none;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .menucard:hover input[type=submit]{
+    color: #2F3035;
+    background-color:whitesmoke ;
+  }
+  .menucard input{
+  cursor: pointer;
+  }
+  
+  /* MAIN */
+  
+  span{
+    color: green;
+    text-transform : uppercase;
+  }
+.flexmain{
+    margin: 3%;
+    display:flex;
+    justify-content: center;
+
+}
+.contentbvn{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contentmain{
+   margin: 10% 0% 0% 0% auto;
+ display:flex;
+ justify-content: center;
+
+}
+.contentcard{
+background-color:white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 70%;
+text-align: center;
+margin: 2%;
+border-radius: 10px;
+}
+
+.contentcard2{
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 30%;
+text-align: center; 
+margin: 2%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+    }
+.cardvideo{
+width: 80%;
+margin: 1%;
+text-align: center;
+} 
+.imgsize{
+width: 100%;
+
+    }
+    .imgsize2{
+      width: 90%;
+      margin: 1%;
+      
+          }
+.contentflex{
+ display: flex;
+  
+}
+.cardmini1{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ width: 30%;
+ text-align: center;
+ margin: 1%;
+ display: flex;
+ align-items: center;
+     }
+.cardmini2{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 70%;
+text-align: center;
+margin: 1%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+/* LIVRE D'OR */
+.contentlo{
+  margin: 10% 0% 0% 0% auto;
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+.contentcardlo{
+background-color:white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 70%;
+text-align: center;
+margin: 2%;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.cardimg{
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  height: 90%;
+  flex-direction: column;
+  margin: 5% 0% 0% 0%;
+ 
+  }
+  .contentcardlo2{
+    background-color:#ECF5F5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 70%;
+    text-align: center;
+    margin: 1% auto;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    }
+    .cardlogin{
+      
+      width: 100%;
+      text-align: center;
+    }
+    .cardlomini1{
+     
+       width: 30%;
+       text-align: center;
+       margin: 1%;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+
+           }
+      .cardcom{
+      width: 70%;
+      text-align: center;
+      margin: 1%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      }
+      h5 { 
+        margin: 1%;
+      }
+      h6 { 
+        margin: 1%;
+      }
+
+/* FORMULAIRE */
+
+.formcontent{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.formcard{
+background-color: white;
+width: 40%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin:5%;
+border-radius: 10px;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+ .formcard input[type=text]{
+   width: 90%;
+   padding: 2%;
+ }
+ .formcard input[type=password]{
+  width: 90%;
+  padding: 2%;
+}
+.formcard input[type=submit]{
+  width: 90%;
+  padding: 2%;
+  background-color: #1969CE;
+  font-family: 'Outfit', sans-serif;
+  color: whitesmoke;
+  border: 1px solid white;
+
+}
+.formcard input[type=submit]:hover{
+  width: 90%;
+  padding: 2%;
+  background-color:  whitesmoke;
+  font-family: 'Outfit', sans-serif;
+  color:#1969CE;
+  border: 1px solid #1969CE;
+
+}
+.padding{
+  padding: 2%;
+}
+.formcard input[type=submit]{
+  cursor: pointer;
+  }
+
+/* PROFIL */
+.contentprofil{
+  background-color: #1969CE;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.cardprofil{
+  background-color : white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.minicardprofil{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cardphoto2 input[type=file]{
+ opacity: 0%;
+ border: none;
+}
+.flexprofil{
+ display: flex;
+justify-content: center;
+}
+.flexprofil input[type=submit]{
+  width: 40%;
+  border-radius: 100px;
+  height: 20%;
+  background-image: url(../images/pictocam.png);
+  background-color: #1969CE;
+  cursor: pointer;
+  border: #1969CE 3px solid;
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+}
+/* COMMENTAIRE */
+
+.contentcom{
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 70%;
+  text-align: center;
+  margin: 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contentcom input[type=submit]{
+  border-radius: 100px;
+  color:whitesmoke;
+  font-family: 'Outfit', sans-serif;
+  background-color: #1969CE;
+  border: #ECF5F5;
+  cursor: pointer;
+}
+.contentcom input[type=submit]:hover{
+  border-radius: 100px;
+  color:#1969CE;
+  font-family: 'Outfit', sans-serif;
+  background-color: whitesmoke;
+  border: #1969CE 1px solid;
+  cursor: pointer;
+}
+
+textarea[name=com]
+{
+ resize : none;
+}
+
+/* FOOTER */
+
+footer{
+background-color: #2F3035;
+color: whitesmoke;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
