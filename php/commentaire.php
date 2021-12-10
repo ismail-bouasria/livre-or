@@ -15,6 +15,6 @@
             </div>
           </form>
     <?php } else { ?>
-        <h1>  Connectez vous pour pouvoir poster un commentaire !"</h1>
+        <h1>  Connectez vous pour pouvoir poster un commentaire !</h1>
     <?php } ?>
 </div>

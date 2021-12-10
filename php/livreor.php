@@ -39,7 +39,7 @@
               $req = mysqli_query($bdd,"SELECT utilisateurs.id,utilisateurs.login,utilisateurs.imageprofil, commentaires.commentaire,commentaires.date
               FROM commentaires 
               INNER JOIN utilisateurs 
-              ON commentaires.`id-utilisateurs` = utilisateurs.id ORDER BY commentaire ASC Limit 4");
+              ON commentaires.`id-utilisateurs` = utilisateurs.id ORDER BY commentaires.id DESC");
               $res = mysqli_fetch_all($req,MYSQLI_ASSOC);
   
               foreach ($res as $key => $value) { 
